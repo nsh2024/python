@@ -8,4 +8,5 @@ app = FastAPI()
 PROJECT_ROOT = Path(__file__).parent.parent
 
 # This should come AFTER all other endpoints this is neela commit
+# this is my 2nd new line for testing
 app.mount("/", StaticFiles(directory=PROJECT_ROOT / "static", html=True))
